@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat Ulang Tahun, Mika!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="animate-text">Selamat Ulang Tahun, Mika!</h1>
+    <p>Hari ini adalah hari spesialmu, semoga kamu selalu dikelilingi cinta dan kebahagiaan.</p>
+    
+    <button onclick="showMessage()">Klik untuk Pesan Spesial!</button>
+
+    <div id="special-message" class="hidden">
+      <p>Kamu adalah orang yang istimewa dan selalu memberi warna pada hidup kami! Semoga semua harapanmu di hari spesial ini segera terwujud. 🎉🎂</p>
+      <button onclick="showConfetti()">Lihat Kejutan!</button>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti-canvas" class="hidden"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
